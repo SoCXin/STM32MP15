@@ -1,38 +1,38 @@
-﻿# [STM32MP1](https://github.com/sochub/STM32MP1)
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+﻿# [STM32MP15](https://github.com/SoCXin/STM32MP15)
 
-#### [Vendor](https://github.com/sochub/Vendor) ：[ST](https://github.com/sochub/ST)
-#### [Cortex](https://github.com/sochub/Cortex) ：[Cortex A7+M4](https://github.com/sochub/CA7)
-#### [Level](https://github.com/sochub/Level)： M4 = 703 CoreMark @ 209 MHz
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-## [描述](https://github.com/sochub/STM32MP1/wiki) 
+* [ST](https://www.st.com/en/microcontrollers-microprocessors/stm32-arm-cortex-mpus.html)：[Cortex-M4 + Cortex-A7](https://github.com/SoCXin/Cortex)
+* [L6R7](https://github.com/SoCXin/Level)：209MHz  * 1.25 DMIPS/MHz
 
-[STM32MP1](https://github.com/sochub/STM32MP1)是[STM32MP](https://www.st.com/zh/microcontrollers-microprocessors/stm32mp1-series.html)系列的首款产品，也是ST Cortex A内核融合发展的探索之作。
+## [简介](https://github.com/SoCXin/STM32MP15/wiki)
 
-[![sites](SoC/STM32MP1.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32mp1-series.html)
-
-* Cortex®-A7 650 MHz
-    * 32-Kbyte L1 Instruction cache
-    * 32-Kbyte L1 Data cache
-    * 256-Kbyte Level 2 cache
-* Cortex®-M4 209 MHz
+[STM32MP15](https://github.com/SoCXin/STM32MP15) 系列基于单核或双核Cortex-A7与Cortex-M4组成的异构架构，加强了支持多应用和灵活应用的能力，可以随时实现最佳性能和功率数据。Cortex-A7内核提供对开源操作系统（Linux/Android）的支持，而Cortex-M4内核可以利用STM32 MCU生态系统。
 
 
-### 关键特性（核心买点）
+[![sites](docs/STM32MP15.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm32mp1-series.html)
 
-* A+M融合
+### 关键特性
 
-### [收录资源](https://github.com/sochub)
+* 800 MHz Cortex®-A7
+* 209 MHz Cortex®-M4
 
-* [文档](docs/)
-* [资源](src/)
+#### 封装规格
 
-### [关联资源](https://github.com/sochub)
+* LFBGA448（18*18*1.7mm,P0.8mm）
+* LFBGA354（16*16*1.7mm,P0.8mm）
+* TFBGA361（12*12*1.2mm,P0.5mm）
+* TFBGA257（10*10*1.2mm,P0.5mm）
+
+### [资源收录](https://github.com/SoCXin/STM32MP15)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin)
+
+[STM32MP15](https://github.com/SoCXin/STM32MP15)
 
 
-
-### [选择建议](https://github.com/sochub)
-
-[STM32MP1](https://github.com/sochub/STM32MP1) 实现A系列和M系列的融合，对于需要交互系统和实时控制的场合有需求感，值得探索发现，但就A系列的规格偏低，M系列中规中矩，在多接口设备中对体积限制不大情况下，只有更低的成本和开发效率是最大的傍身之本。
-
-##  [SoC资源平台](http://www.qitas.cn)  
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
