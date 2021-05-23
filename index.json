@@ -1,10 +1,10 @@
 {
     "name":"STM32MP15",
-    "type":"MCU",
+    "type":"SoC",
     "Freq":"209MHz",
     "vendor":"ST",
     "Core":"Cortex-M4",
-    "description":"ST Cortex-M4 MCU",
+    "description":"ST Cortex-M4 + Cortex-A7 SoC",
     "homepage":"http://www.SoC.xin/STM32MP15",
     "keywords": [
         "motor",
@@ -18,14 +18,19 @@
     },
     "version":"1.0.0",
     "series":["STM32MP151","STM32MP153","STM32MP157"],
-    "package":["LQFP128","LQFP64"],
-    "STM32MP15KIDAE": {
+    "package":["LFBGA448","LFBGA354","TFBGA361","TFBGA257"],
+    "STM32MP151": {
         "package":"LQFP128",
         "RAM":160,
         "ROM":512,
         "peripheral": ["ADC","IIC","UART","SPI","LDO","PWM"]
     },
-    "STM32MP15F6TB": {
+    "STM32MP153": {
+        "package":"LQFP32",
+        "SRAM":4,
+        "Flash":32
+    },
+    "STM32MP157": {
         "package":"LQFP32",
         "SRAM":4,
         "Flash":32

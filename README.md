@@ -1,28 +1,28 @@
-﻿# [STM32MP15](https://github.com/SoCXin/STM32MP15)
+﻿# [STM32MP15x](https://github.com/SoCXin/STM32MP15)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
 * [ST](https://www.st.com/en/microcontrollers-microprocessors/stm32-arm-cortex-mpus.html)：[Cortex-M4 + Cortex-A7](https://github.com/SoCXin/Cortex)
-* [L6R7](https://github.com/SoCXin/Level)：209MHz  * 1.25 DMIPS/MHz
+* [L7R7](https://github.com/SoCXin/Level)：209MHz + 800MHz
 
 ## [简介](https://github.com/SoCXin/STM32MP15/wiki)
 
-[STM32MP15](https://github.com/SoCXin/STM32MP15) 系列基于单核或双核Cortex-A7与Cortex-M4组成的异构架构，加强了支持多应用和灵活应用的能力，可以随时实现最佳性能和功率数据。Cortex-A7内核提供对开源操作系统（Linux/Android）的支持，而Cortex-M4内核可以利用STM32 MCU生态系统。
+[STM32MP15x](https://github.com/SoCXin/STM32MP15) 系列基于单核或双核Cortex-A7与Cortex-M4组成的异构架构，加强了支持多应用和灵活应用的能力，可以随时实现最佳性能和功率数据。Cortex-A7内核提供对开源操作系统（Linux/Android）的支持，而Cortex-M4内核可以利用STM32 MCU生态系统。
 
 
 [![sites](docs/STM32MP15.png)](https://www.st.com/zh/microcontrollers-microprocessors/stm32mp1-series.html)
 
 ### 关键特性
 
-* 800 MHz Cortex®-A7
-* 209 MHz Cortex®-M4
+* 800MHz Cortex®-A7
+* 209MHz Cortex®-M4
 
 #### 封装规格
 
-* LFBGA448（18*18*1.7mm,P0.8mm）
-* LFBGA354（16*16*1.7mm,P0.8mm）
-* TFBGA361（12*12*1.2mm,P0.5mm）
-* TFBGA257（10*10*1.2mm,P0.5mm）
+* LFBGA448（18x18x1.7mm,P0.8mm）
+* LFBGA354（16x16x1.7mm,P0.8mm）
+* TFBGA361（12x12x1.2mm,P0.5mm）
+* TFBGA257（10x10x1.2mm,P0.5mm）
 
 ### [资源收录](https://github.com/SoCXin/STM32MP15)
 
