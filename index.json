@@ -1,13 +1,15 @@
 {
     "name":"STM32MP15",
-    "type":"SoC",
+    "type":"MPU",
     "Freq":"209MHz",
     "vendor":"ST",
     "Core":"Cortex-M4",
     "description":"ST Cortex-M4 + Cortex-A7 SoC",
     "homepage":"http://www.SoC.xin/STM32MP15",
     "keywords": [
-        "motor",
+        "dev-platform",
+        "ARM",
+        "Cortex-A7",
         "ST",
         "Cortex-M4",
         "32-bit"
